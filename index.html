@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="logo">
-        <img src="img/Logo_FICR.png" alt="" class="imgem">
+        <img src="img/fastServices.jpg" alt="" class="imgem">
     </div>
 
 <h1>Trabalhe Conosco</h1>
@@ -22,16 +22,44 @@
     <label for="idade">Idade:</label>
     <input type="number" id="idade" name="idade" required>
 
+    <label>Sexo:</label>
+    <label><input type="checkbox" name="sexo" value="masculino"> Masculino</label>
+    <label><input type="checkbox" name="sexo" value="feminino"> Feminino</label>
+    <label><input type="checkbox" name="sexo" value="outro"> Outro</label>
+
+    <P class="endereco">Estado:</P>
+
+    <select name="estado" id="">
+        <option value="PE">PE</option>
+        <option value="AL">Outros</option>
+    </select>
+
+    <p class="endereco">Cidade:</p>
+    
+    <select name="cidade" id="">
+        <option value="recife">Recife</option>
+        <option value="camaragibe">Camaragibe</option>
+        <option value="olinda">Olinda</option>
+        <option value="jaboatao">Jaboatão</option>
+    </select>
+
+    <label for="logradouro">Logradouro (avenida, rua, travessa, etc):</label>
+    <input type="text" id="logradouro" name="logradouro" required>
+
+    <label for="numeroResidencial">Número:</label>
+    <input type="number" id="numeroResidencial" name="numeroResidencial" required>
+
+    <br><br>
+
+
     <label for="formacao">Formação Acadêmica:</label>
     <input type="text" id="formacao" name="formacao" required>
 
     <label for="experiencia">Experiência Profissional:</label>
     <input type="text" id="formacao" name="formacao" required>
 
-    <label>Sexo:</label>
-    <label><input type="checkbox" name="sexo" value="masculino"> Masculino</label>
-    <label><input type="checkbox" name="sexo" value="feminino"> Feminino</label>
-    <label><input type="checkbox" name="sexo" value="outro"> Outro</label>
+    <br><br>
+
 
     <label for="sobre">Fale algo sobre você:</label>
     <textarea id="sobre" name="sobre" rows="4" required></textarea>
