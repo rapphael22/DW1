@@ -38,6 +38,11 @@ input[type="text"]{
 
 }
 
+p{
+text-align: right;
+color: #0077b6;
+}
+
 input[type="number"]{
     height: 25px;
     background-color: white;
